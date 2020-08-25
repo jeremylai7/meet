@@ -4,18 +4,18 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>meet</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
-        <module>demo-admin</module>
-		<module>demo-common</module>
-		<module>demo-config</module>
-		<module>demo-data</module>
-		<module>demo-service</module>
-		<module>demo-web-core</module>
+        <module>meet-admin</module>
+		<module>meet-common</module>
+		<module>meet-config</module>
+		<module>meet-data</module>
+		<module>meet-service</module>
+		<module>meet-web-core</module>
 	</modules>
-	<description>Demo project</description>
+	<description>meet project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -103,12 +103,6 @@
 			<artifactId>springfox-swagger2</artifactId>
 			<version>2.6.1</version>
 		</dependency>
-		<!--guava-->
-		<!--<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-			<version>24.1.1</version>
-		</dependency>-->
 		<!--druid-->
 		<dependency>
 			<groupId>com.alibaba</groupId>
