@@ -3,6 +3,7 @@ spring:
     active: @profileActive@
 server:
   port: 8080
+
 ---
 #开发环境
 spring:

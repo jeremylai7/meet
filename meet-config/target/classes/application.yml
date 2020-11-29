@@ -1,8 +1,9 @@
 spring:
   profiles:
-    active: pro
+    active: dev
 server:
   port: 8080
+
 ---
 #开发环境
 spring:
