@@ -4,10 +4,10 @@
     <settings>
         <setting name="logImpl" value="org.apache.ibatis.logging.stdout.StdOutImpl"/>
     </settings>
-    <typeHandlers>
+    <!--<typeHandlers>
         <typeHandler handler="com.jeremy.data.enums.handle.EnumHandle"
             javaType="com.jeremy.data.user.enums.UserType" jdbcType="CHAR"/>
-    </typeHandlers>
+    </typeHandlers>-->
     <!--<plugins>
         <plugin interceptor="com.londa.longtong.oil.data.page.PageInterceptor"/>
     </plugins>-->
